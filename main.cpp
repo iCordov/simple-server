@@ -4,8 +4,28 @@ using namespace httplib;
 int main(void) {
   Server svr;
 
-  svr.Get("/hi", [](const Request & /*req*/, Response &res) {
-    res.set_content("Hello World!", "text/plain");
+  // HTTP SERVERS
+  // Redirect into /welcome
+  svr.Get("/", [=](const Request& /*req*/, Response& res)
+  {
+    res.set_redirect("/welcome");
+  });
+
+  // Homepage
+  svr.Get("/welcome", [](const Request & /*req*/, Response &res) {
+    res.set_content("Welcome", "text/plain");
+  });
+
+  // About page
+  svr.Get("/about", [](const Request& /*req*/, Response& res)
+  {
+    res.set_content("About", "text/plain");
+  });
+
+  // Contact page
+  svr.Get("/contact", [](const Request& /*req*/, Response& res)
+  {
+    res.set_content("Contact Us", "text/plain");
   });
 
   svr.listen("0.0.0.0", 8080);
