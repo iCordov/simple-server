@@ -1,5 +1,7 @@
 #include "httplib.h"
 #include "home-page.h"
+#include "about-page.h"
+#include "./Contact-Us-Form/contact-page.h"
 using namespace httplib;
 
 int main(void) {
@@ -20,13 +22,13 @@ int main(void) {
   // About page
   svr.Get("/about", [](const Request& /*req*/, Response& res)
   {
-    res.set_content("About", "text/plain");
+    res.set_content(about_page, "text/html");
   });
 
   // Contact page
   svr.Get("/contact", [](const Request& /*req*/, Response& res)
   {
-    res.set_content("Contact Us", "text/plain");
+    res.set_content(contact_page, "text/html");
   });
 
   svr.listen("0.0.0.0", 8080);
