@@ -29,10 +29,5 @@ int main(void) {
     res.set_content("Contact Us", "text/plain");
   });
 
-  // Products page
-  svr.Get("/products", [](const Request& /*req*/, Response& res)
-  {
-    res.set_content("Products", "text/plain");
-  });
   svr.listen("0.0.0.0", 8080);
 }
