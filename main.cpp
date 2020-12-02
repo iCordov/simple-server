@@ -1,5 +1,5 @@
 #include "httplib.h"
-
+#include "welcome-page.h"
 using namespace httplib;
 
 int main(void) {
@@ -14,7 +14,7 @@ int main(void) {
 
   // Homepage
   svr.Get("/welcome", [](const Request & /*req*/, Response &res) {
-    res.set_content("Welcome", "text/plain");
+    res.set_content(welcome_page,"text/html");
   });
 
   // About page
