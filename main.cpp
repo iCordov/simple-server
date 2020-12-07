@@ -1,7 +1,7 @@
-#include "httplib.h"
-#include "home-page.h"
-#include "about-page.h"
-#include "./Contact-Us-Form/contact-page.h"
+#include "./Header/httplib.h"
+#include "./Header/home-page.h"
+#include "./Header/about-page.h"
+#include "./Header/contact-page.h"
 using namespace httplib;
 
 int main(void) {
