@@ -104,7 +104,7 @@ auto const welcome_page = R"(
     <div class ="sidenav">
         <a href="/about">About</a>
         <a href="/home">Home</a>
-        <a href="/contact">Contact Us</a>
+        <a href="/product">Products</a>
     </div>
 
 </body>
