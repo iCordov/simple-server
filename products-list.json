@@ -1,0 +1,82 @@
+[
+    {
+        "type": "Food",
+        "name": "Indomie Goreng",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consequat ligula vel purus suscipit, a tempus arcu semper. Duis at velit malesuada, feugiat orci vitae, porttitor lacus.",
+        "price": "Rp 2.500",
+        "quantity": 42,
+        "picture":  "./Products-images/Indomie-Goreng.png"
+    },
+    {
+        "type": "Food",
+        "name": "Indomie Goreng Box",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consequat ligula vel purus suscipit, a tempus arcu semper. Duis at velit malesuada, feugiat orci vitae, porttitor lacus.",
+        "price": "RP 100.000",
+        "quantity": 5,
+        "picture": "./Products-images/Indomie-Goreng-Box.png"
+    },
+    {
+        "type": "Food",
+        "name": "Quaker Oatmeal Instant 800gr",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consequat ligula vel purus suscipit, a tempus arcu semper. Duis at velit malesuada, feugiat orci vitae, porttitor lacus.",
+        "price": "Rp 40.000",
+        "quantity": 27,
+        "picture": "./Products-images/Quaker-Oatmeal.png"
+    },
+    {
+        "type": "Food",
+        "name": "Simba Cereal Choco Chips Coklat 170gr",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consequat ligula vel purus suscipit, a tempus arcu semper. Duis at velit malesuada, feugiat orci vitae, porttitor lacus.",
+        "price": "Rp 15.000",
+        "quantity": 14,
+        "picture": "./Products-images/Simba-Choco.png"
+    },
+    {
+        "type": "Snack",
+        "name": "Glico Biscuit Pocky Chocolate 47gr",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consequat ligula vel purus suscipit, a tempus arcu semper. Duis at velit malesuada, feugiat orci vitae, porttitor lacus.",
+        "price": "Rp 8.000",
+        "quantity": 50,
+        "picture": "./Products-images/Pocky-Chocolate.png"
+    },
+    {
+        "type": "Snack",
+        "name": "Tango Wafer Chocolate 115gr",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consequat ligula vel purus suscipit, a tempus arcu semper. Duis at velit malesuada, feugiat orci vitae, porttitor lacus.",
+        "price": "Rp 7.000",
+        "quantity": 31,
+        "picture": "./Products-images/Tango-Chocolate.png"
+    },
+    {
+        "type": "Drink",
+        "name": "Coca-Cola Soft Drink 1500ml",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consequat ligula vel purus suscipit, a tempus arcu semper. Duis at velit malesuada, feugiat orci vitae, porttitor lacus.",
+        "price": "Rp 12.000",
+        "quantity": 34,
+        "picture": "./Products-images/Coca-Cola.png"
+    },
+    {
+        "type": "Drink",
+        "name": "Sprite Soft Drink 1500ml",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consequat ligula vel purus suscipit, a tempus arcu semper. Duis at velit malesuada, feugiat orci vitae, porttitor lacus.",
+        "price": "Rp 12.000",
+        "quantity": 48,
+        "picture": "./Products-images/Sprite.png"
+    },
+    {
+        "type": "Drink",
+        "name": "Hydro Coco Natural Health Drink 500ml",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consequat ligula vel purus suscipit, a tempus arcu semper. Duis at velit malesuada, feugiat orci vitae, porttitor lacus.",
+        "price": "Rp 10.700",
+        "quantity": 32,
+        "picture": "./Products-images/Hydro-Coco.png"
+    },
+    {
+        "type": "Drink",
+        "name": "Coolant 350ml",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consequat ligula vel purus suscipit, a tempus arcu semper. Duis at velit malesuada, feugiat orci vitae, porttitor lacus.",
+        "price": "Rp 4.000",
+        "quantity": 22,
+        "picture": "./Products-images/Coolant.png"
+    }
+]
