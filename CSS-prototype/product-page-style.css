@@ -1,0 +1,150 @@
+/* Basic Styling */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+}
+
+/* Navbar */
+.sidenav 
+{
+  height: 100%;
+  width: 55px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 16.5%;
+    
+}
+.sidenav a 
+{
+  padding: 100px 0px 100px 18px;
+  text-decoration:none;
+  font-size: 18px;
+  color:white;
+  display: block;
+  transform: rotate(90deg);
+  font-family: Verdana, sans-serif;
+}
+.sidenav a:hover 
+{
+  text-decoration: overline;
+  color:goldenrod;
+}
+/* Columns */
+.left-column {
+  width: 65%;
+  position: relative;
+}
+
+.right-column {
+  width: 35%;
+  margin-top: 60px;
+}
+
+
+/* Left Column */
+.left-column img {
+  width: 100%;
+  margin-right: 15px;
+  opacity: 0;
+}
+
+.left-column img.active {
+  opacity: 1;
+}
+
+
+/* Right Column */
+
+/* Product Description */
+.product-description {
+  border-bottom: 1px solid #E1E8EE;
+  margin-bottom: 20px;
+}
+
+.product-description h1 {
+  font-weight: 300;
+  font-size: 52px;
+  color: #43484D;
+  letter-spacing: -2px;
+}
+.product-description p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #86939E;
+  line-height: 24px;
+}
+
+/* Product Quantity */
+.product-quantity {
+  border-bottom: 1px solid #E1E8EE;
+  margin-bottom: 20px;
+}
+
+.product-quantity p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #43474D;
+  margin-right: 20px;
+}
+
+/* Product Price */
+.product-price {
+  display: flex;
+  align-items: center;
+}
+
+.product-price span {
+  font-size: 26px;
+  font-weight: 300;
+  color: #43474D;
+  margin-right: 20px;
+}
+
+/* Product Config */
+
+.product-config {
+  display: inline-block;
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 4px 15px;
+  transition: all .5s;
+}
+
+.product-config .edit{
+  background-color: #7DC855;
+}
+
+.product-config .edit a{
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.product-config .edit:hover {
+  background-color: #64af3d;
+}
+
+.product-config .delete{
+  background-color: rgb(185, 16, 16);
+}
+
+.product-config .delete a{
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.product-config .delete:hover{
+  background-color: maroon;
+}
