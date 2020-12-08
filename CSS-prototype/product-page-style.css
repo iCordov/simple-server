@@ -1,12 +1,14 @@
 /* Basic Styling */
-html, body {
+html, body 
+{
   height: 100%;
   width: 100%;
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
 
-.container {
+.container 
+{
   max-width: 1200px;
   margin: 0 auto;
   padding: 15px;
@@ -43,25 +45,29 @@ html, body {
   color:goldenrod;
 }
 /* Columns */
-.left-column {
+.left-column 
+{
   width: 65%;
   position: relative;
 }
 
-.right-column {
+.right-column 
+{
   width: 35%;
   margin-top: 60px;
 }
 
 
 /* Left Column */
-.left-column img {
+.left-column img 
+{
   width: 100%;
   margin-right: 15px;
   opacity: 0;
 }
 
-.left-column img.active {
+.left-column img.active 
+{
   opacity: 1;
 }
 
@@ -69,18 +75,21 @@ html, body {
 /* Right Column */
 
 /* Product Description */
-.product-description {
+.product-description 
+{
   border-bottom: 1px solid #E1E8EE;
   margin-bottom: 20px;
 }
 
-.product-description h1 {
+.product-description h1 
+{
   font-weight: 300;
   font-size: 52px;
   color: #43484D;
   letter-spacing: -2px;
 }
-.product-description p {
+.product-description p 
+{
   font-size: 16px;
   font-weight: 300;
   color: #86939E;
@@ -88,12 +97,14 @@ html, body {
 }
 
 /* Product Quantity */
-.product-quantity {
+.product-quantity 
+{
   border-bottom: 1px solid #E1E8EE;
   margin-bottom: 20px;
 }
 
-.product-quantity p {
+.product-quantity p 
+{
   font-size: 18px;
   font-weight: bold;
   color: #43474D;
@@ -101,12 +112,14 @@ html, body {
 }
 
 /* Product Price */
-.product-price {
+.product-price 
+{
   display: flex;
   align-items: center;
 }
 
-.product-price span {
+.product-price span
+{
   font-size: 26px;
   font-weight: 300;
   color: #43474D;
@@ -115,7 +128,8 @@ html, body {
 
 /* Product Config */
 
-.product-config {
+.product-config 
+{
   display: inline-block;
   border-radius: 6px;
   text-decoration: none;
@@ -123,16 +137,19 @@ html, body {
   transition: all .5s;
 }
 
-.product-config .edit{
+.product-config .edit
+{
   background-color: #7DC855;
 }
 
-.product-config .edit a{
+.product-config .edit a
+{
   font-size: 20px;
   color: #FFFFFF;
 }
 
-.product-config .edit:hover {
+.product-config .edit:hover 
+{
   background-color: #64af3d;
 }
 

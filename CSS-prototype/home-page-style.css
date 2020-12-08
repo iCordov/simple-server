@@ -13,7 +13,8 @@ html, body
     background-size: cover;
     height: 100%;
 }
-.bg-text {
+.bg-text 
+{
     text-align: left;
     position: absolute;
     top: 40.5%;

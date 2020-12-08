@@ -4,7 +4,8 @@
 
 using namespace httplib;
 
-int main(void) {
+int main(void) 
+{
   Server svr;
 
   // HTTP SERVERS
@@ -15,7 +16,8 @@ int main(void) {
   });
 
   // Homepage
-  svr.Get("/home", [](const Request & /*req*/, Response &res) {
+  svr.Get("/home", [](const Request & /*req*/, Response &res) 
+  {
     res.set_content(welcome_page,"text/html");
   });
 
