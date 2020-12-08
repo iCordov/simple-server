@@ -1,6 +1,7 @@
 #include "./Header/httplib.h"
 #include "./Header/home-page.h"
 #include "./Header/about-page.h"
+
 using namespace httplib;
 
 int main(void) {
@@ -25,10 +26,10 @@ int main(void) {
   });
 
   // Contact page
-  svr.Get("/contact", [](const Request& /*req*/, Response& res)
+  /*svr.Get("/contact", [](const Request& /*req*//*, Response& res)
   {
-    res.set_content(contact_page, "text/html");
-  });
+    res.set_content(product_page, "text/html");
+  });*/
 
   svr.listen("0.0.0.0", 8080);
 }
