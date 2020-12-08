@@ -1,3 +1,5 @@
+#ifndef ABOUT_PAGE_H_
+#define ABOUT_PAGE_H_
 auto const about_page = R"(
 
 <!DOCTYPE html>
@@ -82,3 +84,5 @@ auto const about_page = R"(
 </html>
 
 )";
+
+#endif // ABOUT_PAGE_H_

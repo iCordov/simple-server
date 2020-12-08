@@ -1,4 +1,6 @@
-auto const welcome_page = R"(
+#ifndef HOME_PAGE_H_
+#define HOME_PAGE_H_
+auto const home_page = R"(
 
 <!DOCTYPE html>
 <html>
@@ -111,3 +113,5 @@ auto const welcome_page = R"(
 </html>
 
 )";
+
+#endif // HOME_PAGE_H_
